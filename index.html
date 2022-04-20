@@ -1,95 +1,56 @@
+<!DOCTYPE html>
 <html>
-<head>
-</head>
-<body>
-* {
-  max-width: 700px;
-  margin: auto;
-}
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="cv_ex.css">
+		<title>Mon CV</title>
+	</head>
+	<body>
+		<div id="header"></div>
+		<div class="left"></div>
+		<div class="stuff">
+			<br><br>
+			<h1>CV</h1>
+			<h2>Sarah</h2>
+			<hr />
+			<br>
+			<p class="head">Intérêts</p>
+			<ul>
+				<li>Danse de salon</li>
+				<li>Apnée</li>
+				<li>Droit du numérique</li>
+				<li>Informatique</li>
+			</ul>
+			<p class="head">Compétences</p>
+			<ul>
+				<li>Web Design with HTML & CSS</li>
+			</ul>
+			<p class="head">Diplômes</p>
+			<ul>
+				<a href="https://fr.wikipedia.org/wiki/Baccalauréat_scientifique">
+					<li>Baccalauréat section littéraire</li>
+				</a>
+				<!--Link-->
+	
+					<li><a href="https://www.cidj.com/etudes-formations-alternance/les-diplomes/licence-mass-mathematiques-appliquees-et-sciences-sociales">Licence MASS</a> (<a href="https://en.wikipedia.org/wiki/Paris_Diderot_University">Université Paris 7</a>)</li>
+				
 
-
-/*body {
-    min-width: 500px;
-}*/
-
-div {
-  border-radius: 5px;
-}
-
-#header {
-  height: 40px;
-  width: 100%;
-  background-color: #ffcccc;
-  position: fixed;
-  z-index: 1;
-}
-
-#title {
-  margin-left: 3%;
-}
-
-#footer {
-  height: 50px;
-  width: 100%;
-  background-color: #ffcccc;
-  clear: both;
-  position: relative;
-}
-
-.left {
-  height: 1000px;
-  width: 45px;
-  background-color: #e0eeee;
-  float: left;
-  position: fixed;
-}
-
-.right {
-  height: 1000px;
-  width: 45px;
-  background-color: #e0eeee;
-  float: right;
-  position: inherit;
-}
-
-.stuff {
-  display: inline-block;
-  margin-top: 6px;
-  margin-left: 55px;
-  width: 75%;
-  height: 1000px;
-}
-
-p,
-li {
-  font-family: 'Cormorant Garamond';
-}
-
-.head {
-  font-size: 20px;
-}
-
-#name {
-  font-family: Sacramento;
-  float: right;
-  margin-top: 10px;
-  margin-right: 4%;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
-
-@media only screen and (max-width: 430px) {
-  .left,
-  .right {
-    display: none;
-  }
-  .stuff {
-    width: 100%;
-    margin-left: 10px;
-  }
-}
-  </body>
+			</ul>
+			<p class="head">Experiences</p>
+			<ul>
+				<li>Enseignant-Chercheur</li>
+					<ul>
+						<li>Université Toulouse I Capitole</li>
+						<li>Université Paris Est Créteil</li>
+					</ul>
+			</ul>
+			<p class="head">Parascolaires</p>
+			<ul>
+				<li>...</li>
+			</ul>
+		</div>
+		<div class="right"></div>
+		<div id="footer">
+			<h2 id="name">Sarah Olmos</h2></div>
+	</body>
 </html>
