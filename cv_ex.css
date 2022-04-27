@@ -1,135 +1,162 @@
-body{
-
-  background-color : white;
-
-}
-
- 
-
-.page{
-
+* {
   width: 780px;
-
   margin: auto;
-
   font-family: 'Source sans Pro', Calibri, Tahoma, sans-serif;
-
   font-size: 16px;
-
   border: 5px solid #3388CC;
-
   border-radius: 10px;
-
   box-shadow : 2px 3px 4px black;
-
   padding: 20px;
-
-  Background-color : white;
-
+  background-color : pink;
 }
 
-
-
-
-.infophoto{
-
+.infophoto{ 
       height: 250px; 
-
 }
-
-
-
 
 .info{
-
     float: left;
-
 }
-
 .photo{
-
      float: right;
-
 }
-
-
-
 
 .section{
-
       margin-bottom: 70px;
-
       text-align: justify;
-
 }
-
-
-
 
 .section:hover{
-
-    color: #33B3FF;
-
+    color: #00AA00;
 }
-
-
-
 
 .sec-gauche{
-
       float: left;
-
       font-weight: bold;
-
       font-size-20px;
-
 }
-
-
-
 
 .sec-droite{ 
-
      margin-left: 150px;
-
      margin-top: 37px;
-
 }
-
 h2 {
-
    font-size: 28px;
-
-   color :#FF33A0;
-   border-bottom: 3px solid #FF33A0;
+   color :#3388BB;
+   border-bottom: 3px solid #3388DD;
 }
+
 .duree{
   font-weight: normal;
   font-style: italic;
   font-size: 16px; 
 }
+
 .titre{
    font-weight: bold;
    font-size: 20px;
 }
+
 #forma-gauche p{
    margin-bottom : 37px;
 }
-
 #exp-gauche p{
-
    margin-top : 32px;
-
 }
-
 #long-droite-sub p{
-
    margin-top : 42px;
-
+}
+#long-droite{
+     line-height: 25px;
 }
 
-#long-droite{
 
-     line-height: 25px;
 
+
+
+
+
+
+/*body {
+    min-width  : 500px;
+}*/
+
+div {
+  border-radius: 5px;
+}
+
+#header {
+  height: 40px;
+  width: 100%;
+  background-color: #ffcccc;
+  position: fixed;
+  z-index: 1;
+}
+
+#title {
+  margin-left: 3%;
+}
+
+#footer {
+  height: 50px;
+  width: 100%;
+  background-color: #ffcccc;
+  clear: both;
+  position: relative;
+}
+
+.left {
+  height: 1000px;
+  width: 45px;
+  background-color: #e0eeee;
+  float: left;
+  position: fixed;
+}
+
+.right {
+  height: 1000px;
+  width: 45px;
+  background-color: #e0eeee;
+  float: right;
+  position: inherit;
+}
+
+.stuff {
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 75%;
+  height: 1000px;
+}
+
+p,
+li {
+  font-family: 'Cormorant Garamond';
+}
+
+.head {
+  font-size: 20px;
+}
+
+#name {
+  font-family: Sacramento;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 430px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .stuff {
+    width: 100%;
+    margin-left: 10px;
+  }
 }
