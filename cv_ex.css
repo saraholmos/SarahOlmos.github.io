@@ -60,7 +60,7 @@ body{background: var(--background);}
 .col3{text-align: center;}
 h1{font-size: 50px; text-transform: uppercase; color: var(--black); line-height: 50px;}
 h1 span{color: var(--one);}
-.p3{letter-spacing: 11px;color: #33FFBB; font-weight: 500;}
+.p3{letter-spacing: 2px;color: #33FFBB; font-weight: 500;}
 .heading{text-transform: uppercase;font-weight: 500;color: var(--one); 
 	letter-spacing: 1px; font-size: 20px;}
 .hr2{border: none; height: 1px; background: var(--black); margin-top: 3px;}
