@@ -1,4 +1,8 @@
-* {
+body{
+  background-color : grey;
+}
+ 
+.page{
   width: 780px;
   margin: auto;
   font-family: 'Source sans Pro', Calibri, Tahoma, sans-serif;
@@ -69,7 +73,3 @@ h2 {
 #long-droite{
      line-height: 25px;
 }
-
-
-
-
