@@ -1,6 +1,18 @@
 body{
   background-color : grey;
 }
+header{
+  height: 40px;
+  background-image:url(images/banniere.jpg);
+  boder:1px solid #CCC;
+  width:1000px;
+  margin:0px auto;
+  position: relative;
+  }
+#header h1{
+  color:white;
+  text-align: center
+    }
  
 .page{
   width: 780px;
