@@ -1,18 +1,6 @@
 body{
-  background-color : grey;
+  background-color : white;
 }
-header{
-  height: 40px;
-  background-image:url(images/banniere.jpg);
-  boder:1px solid #CCC;
-  width:1000px;
-  margin:0px auto;
-  position: relative;
-  }
-#header h1{
-  color:white;
-  text-align: center
-    }
  
 .page{
   width: 780px;
@@ -23,7 +11,7 @@ header{
   border-radius: 10px;
   box-shadow : 2px 3px 4px black;
   padding: 20px;
-  Background-color : pink;
+  Background-color : white;
 }
 
 .infophoto{
@@ -43,7 +31,7 @@ header{
 }
 
 .section:hover{
-    color: #00AA00;
+    color: #33B3FF;
 }
 
 .sec-gauche{
