@@ -19,11 +19,11 @@ body{
   }
 
 .info{
-    float: left;
+    float: right;
 }
 
 .photo{
-    float: right;
+    float: left;
   }
 
 .section{
