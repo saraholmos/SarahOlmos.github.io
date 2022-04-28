@@ -1,3 +1,17 @@
+<div class="container">
+  <div class="informations-bar">
+    <ul>
+      <li class="active">Actualités</li>
+      <li>Bio</li>
+      <li>Amis</l>
+      <li>Médias</li>
+    </ul>
+    <div class="profile">
+      <img src="logo.png">
+      <p class="name">Believemy</p>
+    </div>
+  </div>
+</div>
 body{
   background-color: white;
 }
