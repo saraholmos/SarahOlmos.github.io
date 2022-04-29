@@ -80,7 +80,6 @@ h2{
 
 /* LEFT COLUMN */
 .colonnedegauche{
-  grid-area: left-column;
   padding: 50px;
   background-color: #DD8382;
   color: white;
