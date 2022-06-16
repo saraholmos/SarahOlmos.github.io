@@ -1,0 +1,63 @@
+/* GENERAL */
+.tableau-contenair{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "left-column center-column right-column";
+    width: 140px;
+    margin: 140px;
+          border-bottom-style: groove;
+
+
+  }
+
+/* LEFT COLUMN */
+.left-column{
+    width: 140px;
+    margin: 500px;
+    grid-area: left-column;
+    margin-left: 15px;
+    margin-right: 50px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 50px;
+    background-color: #B3B6B7;
+    color: white;
+    border : 2px solid black;
+    text-align: justify;
+  }
+
+/* CENTER COLUMN */
+.center-column{
+    width: 140px;
+    margin: 30px;
+    grid-area: center-column;
+    margin-left: 650px;
+    margin-right: 50px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    padding: 40px;
+    background-color: #B3B6B7;
+    color: white;
+        border : 2px solid black;
+        text-align: justify;
+
+  }
+
+  /* RIGHT COLUMN */
+  .right-column{
+    width: 300px;
+    margin: 300px;
+    grid-area: right-column;
+    margin-left: 200px;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding: 100px;
+    background-color: #B3B6B7;
+    color: white;
+        border : 2px solid black;
+        text-align: justify;
+        border : 3px dotted black;
+      }
+
+
