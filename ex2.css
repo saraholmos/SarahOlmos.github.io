@@ -2,6 +2,7 @@
 *{
   margin: 0;
   box-sizing: border-box;
+  text-align: justify;
 }
 
 body{
@@ -10,31 +11,6 @@ font-family: 'Source sans Pro', Calibri, Tahoma, sans-serif;
   font-size: .9rem;
   line-height: 1.5;
 }
-
-#banhaut{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  width: 1200px;
-  height: 350px;
-  padding: 0px;
-  margin-top: -140px;
-  background-image: url("IA.jpeg");
-  }
-
-  #banbas{
-    position: absolute;
-    left: 0px;
-    right: 0px;
-  width: 1200px;
-  height: 150px;
-  padding: 0px;
-  margin-top : 1980px;
-  margin-bottom: 90px;
-  background-image: url("IA.jpeg");
-  }
-
 
 p{
   margin: 0 0 1rem;
@@ -100,7 +76,7 @@ h2{
 .header{
   grid-area: header;
   padding: 50px;
-  background-color: #DD8382;
+  background-color: #337FFF;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -115,3 +91,7 @@ h2{
   grid-area: content;
   padding: 50px;
 }
+img{
+  text-align: center;
+  margin: auto;
+  display: flex;
